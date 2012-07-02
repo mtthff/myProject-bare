@@ -5,13 +5,15 @@
  *
  * @author mtthff(at)gmail.com
  */
+  
+require_once 'config/config.inc.php';
+ 
 class MAZmysql {
     
-    protected $hostname = '';
-    protected $username = '';
-    protected $password = '';
-    protected $database = '';
- //   require_once 'config.inc.php'; //get data above from a foreign file
+    protected $hostname = HOSTNAME;
+    protected $username = USERNAME;
+    protected $password = PASSWORD;
+    protected $database = DATABASE;
 
     public $send;
     public $records;
