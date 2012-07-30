@@ -6,7 +6,7 @@
  * @author mtthff(at)gmail.com
  */
   
-require_once 'config/config.inc.php';
+require_once 'config.inc.php';
  
 class MAZmysql {
     
